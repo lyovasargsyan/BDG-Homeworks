@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/BDG Homeworks.iml" filepath="$PROJECT_DIR$/.idea/BDG Homeworks.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TreeHashMapEx/TreeHashMapEx.iml" filepath="$PROJECT_DIR$/TreeHashMapEx/TreeHashMapEx.iml" />
     </modules>
   </component>
 </project>
