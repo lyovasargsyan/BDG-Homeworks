@@ -8,20 +8,18 @@ public class SubPlanComp {
         return plan2;
     }
     public static void main(String[] args){
-        for(SubscriptionPlan subscriptionPlan: SubscriptionPlan.values()){
-            switch (subscriptionPlan){
-                case FREE -> {
-                    System.out.println("basic/free usage");}
-                case ENTERPRISE -> {
-                    System.out.println("advanced scurity, many users");
-                }
-                case PREMIUM -> {
-                    System.out.println("advanced individual or small business usage");
-                }
-                case BASIC -> {
-                    System.out.println("Individual users with more features");
-                }
-
+        SubscriptionPlan subscriptionPlan = SubscriptionPlan.FREE;
+        switch (subscriptionPlan){
+            case FREE -> {
+                System.out.println("basic/free usage");}
+            case ENTERPRISE -> {
+                System.out.println("advanced scurity, many users");
+            }
+            case PREMIUM -> {
+                System.out.println("advanced individual or small business usage");
+            }
+            case BASIC -> {
+                System.out.println("Individual users with more features");
             }
         }
     }
